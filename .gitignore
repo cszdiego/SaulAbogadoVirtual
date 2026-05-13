@@ -1,0 +1,45 @@
+# ── Entorno virtual ────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Variables de entorno (contienen API keys y contraseñas) ────────────────
+.env
+
+# ── Python cache ───────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+.Python
+
+# ── Modelos grandes (exceden el límite de 100 MB de GitHub) ───────────────
+# El GGUF pesa 4.9 GB — usa Git LFS o descárgalo aparte
+models/abogado_virtual_gguf/*.gguf
+models/abogado_virtual_gguf/Modelfile
+
+# ── Privacidad: contratos personales reales ────────────────────────────────
+data/raw/Contracts/*encrypted*
+data/raw/Contracts/*DIEGO*
+
+# ── Datos de referencia CUAD (35 MB + 7 MB, no son del proyecto) ──────────
+data/cuad_reference/train_separate_questions.json
+data/cuad_reference/test.json
+
+# ── Volúmenes de Docker (datos generados localmente) ──────────────────────
+chroma_data/
+postgres_data/
+vector_db/
+
+# ── OS y editores ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
