@@ -8,8 +8,6 @@ El proyecto combina **RAG** (Retrieval-Augmented Generation) sobre las leyes mex
 
 ## Demo
 
-![Saul UI](https://via.placeholder.com/800x400?text=Saul+Demo)
-
 El sistema entrega:
 - **Puntaje de abusividad** (0–100) con gauge visual
 - **Cláusulas problemáticas** ordenadas por severidad (alta / media / baja)
